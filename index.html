@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <!-- Asset Management-->
+        <a-assets>
+            <img id="wood" src="assets/crate.jpg">
+            <img id="city" src="assets/city.jpg">
+            <img id="grass" src="assets/grass.jpg">
+            <img id="spencer" src="assets/spencer.jpg">
+            <img id="hex" src="assets/hexagons.png">
+            <img id="earth" src="assets/earth-sphere.jpg">
+            <img id="gdoor" src="assets/gdoor.png">
+            <img id="cobble" src="assets/cobblestone.jpeg">
+            <img id="window" src="assets/window.jpg">
+            <img id="straw" src="assets/straw.jpeg"> <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F48413764713857522%2F&psig=AOvVaw3BTOJ3Ndewf4MdqSCuYoV6&ust=1613656276883000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCPDwp4yJ8e4CFQAAAAAdAAAAABAD-->
+            <img id="sticks" src="assets/sticks.jpeg"> <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_89946495_wooden-sticks-texture-background.html&psig=AOvVaw1sgBkrUu1ASrbPkRuLKQkM&ust=1613656451298000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCJjV-O6I8e4CFQAAAAAdAAAAABAI-->
+            <img id="brick" src="assets/brick.jpeg"> <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F431078995573218874%2F&psig=AOvVaw0enRdQLgxPQmXDYU0VlZ9k&ust=1613656556390000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCPD_46CJ8e4CFQAAAAAdAAAAABAI-->
+        </a-assets>
+
+        <!--STRAW-->
+        <a-box position="-15 0 14" width="0" height="0" rotation="-90 45 0" color="white">
+            <!--House-->
+            <!--Left-->
+            <a-box position="3 3.8 4" width="0.2" height="11" depth="8" rotation="0 0 0" color="grey" src="#straw"
+                repeat="5"></a-box>
+            <a-box position="3 1.6 7.3" width="0.2" height="6" depth="4" rotation="30 0 0" color="grey" src="#straw"
+                repeat="1"></a-box>
+            <a-box position="3 5 7.6" width="0.2" height="6" depth="4" rotation="-30 0 0" color="grey" src="#straw"
+                repeat="1"></a-box>
+
+            <!--Back-->
+            <a-box position="10.5 9.2 4" width="0.2" height="15" depth="8" rotation="0 0 90" color="grey" src="#straw"
+                repeat="2"></a-box>
+            <!--Right-->
+            <a-box position="18 3.8 4" width="0.2" height="11" depth="8" rotation="0 0 0" color="grey" src="#straw"
+                repeat="5"></a-box>
+            <a-box position="18 1.6 7.3" width="0.2" height="6" depth="4" rotation="30 0 0" color="grey" src="#straw"
+                repeat="1"></a-box>
+            <a-box position="18 5 7.6" width="0.2" height="6" depth="4" rotation="-30 0 0" color="grey" src="#straw"
+                repeat="1"></a-box>
+
+            <!--Front-->
+            <a-box position="6 -1.7 4" width="0.2" height="6" depth="8" rotation="0 0 90" color="grey" src="#straw"
+                repeat="2"></a-box>
+            <a-box position="10.5 -1.7 6" width="0.2" height="3.5" depth="4" rotation="0 0 90" color="grey"
+                src="#straw" repeat="2"></a-box>
+            <!--Door-->
+            <a-box position="9 -2.8 2" width="0.2" height="2" depth="4" rotation="0 0 0" color="oranges" src="#straw"
+                repeat="2"></a-box>
+            <a-box position="15 -1.7 4" width="0.2" height="6" depth="8" rotation="0 0 90" color="grey" src="#straw"
+                repeat="2"></a-box>
+
+
+        
+            
+
+
+
+
+            <!-- Front Roof-->
+            <a-box position="10.5 0 9" width="0.2" height="15" depth="8" rotation="-60s 0 90" color="orange" src="#straw"
+                repeat="2"></a-box>
+
+            <!-- Back Roof-->
+            <a-box position="10.5 7 9" width="0.2" height="15" depth="8" rotation="60 0 90" color="orange" src="#straw"
+                repeat="2"></a-box>
+
+            
+        </a-box>
+        <!--STRAW END-->
+
+        <!--STICK-->
+        <a-box position="0 0 0" width="0" height="0" rotation="-90 0 0" color="white">
+            <!--House-->
+            <!--Left-->
+            <a-box position="3 3.8 4" width="0.2" height="11" depth="8" rotation="0 0 0" color="white" src="#sticks"
+                repeat="5"></a-box>
+            <a-box position="3 1.6 7.3" width="0.2" height="6" depth="4" rotation="30 0 0" color="white" src="#sticks"
+                repeat="1"></a-box>
+            <a-box position="3 5 7.6" width="0.2" height="6" depth="4" rotation="-30 0 0" color="white" src="#sticks"
+                repeat="1"></a-box>
+
+            <!--Back-->
+            <a-box position="10.5 9.2 4" width="0.2" height="15" depth="8" rotation="0 0 90" color="white" src="#sticks"
+                repeat="2"></a-box>
+            <!--Right-->
+            <a-box position="18 3.8 4" width="0.2" height="11" depth="8" rotation="0 0 0" color="white" src="#sticks"
+                repeat="5"></a-box>
+            <a-box position="18 1.6 7.3" width="0.2" height="6" depth="4" rotation="30 0 0" color="white" src="#sticks"
+                repeat="1"></a-box>
+            <a-box position="18 5 7.6" width="0.2" height="6" depth="4" rotation="-30 0 0" color="white" src="#sticks"
+                repeat="1"></a-box>
+
+            <!--Front-->
+            <a-box position="6 -1.7 4" width="0.2" height="6" depth="8" rotation="0 0 90" color="white" src="#sticks"
+                repeat="2"></a-box>
+            <a-box position="10.5 -1.7 6" width="0.2" height="3.5" depth="4" rotation="0 0 90" color="white"
+                src="#sticks" repeat="2"></a-box>
+            <!--Door-->
+            <a-box position="9 -2.8 2" width="0.2" height="2" depth="4" rotation="0 0 0" color="white" src="#sticks"
+                repeat="2"></a-box>
+            <a-box position="15 -1.7 4" width="0.2" height="6" depth="8" rotation="0 0 90" color="white" src="#sticks"
+                repeat="2"></a-box>
+
+
+        
+            
+
+
+
+
+            <!-- Front Roof-->
+            <a-box position="10.5 0 9" width="0.2" height="15" depth="8" rotation="-60s 0 90" color="white" src="#sticks"
+                repeat="2"></a-box>
+
+            <!-- Back Roof-->
+            <a-box position="10.5 7 9" width="0.2" height="15" depth="8" rotation="60 0 90" color="white" src="#sticks"
+                repeat="2"></a-box>
+
+            
+        </a-box>
+        <!--STICK END-->
+        <!--BRICK-->
+        <a-box position="20 0 0" width="0" height="0" rotation="-90 -45 0" color="white">
+            <!--House-->
+            <!--Left-->
+            <a-box position="3 3.8 4" width="0.2" height="11" depth="8" rotation="0 0 0" color="grey" src="#brick"
+                repeat="5"></a-box>
+            <a-box position="3 1.6 7.3" width="0.2" height="6" depth="4" rotation="30 0 0" color="grey" src="#brick"
+                repeat="1"></a-box>
+            <a-box position="3 5 7.6" width="0.2" height="6" depth="4" rotation="-30 0 0" color="grey" src="#brick"
+                repeat="1"></a-box>
+
+            <!--Back-->
+            <a-box position="10.5 9.2 4" width="0.2" height="15" depth="8" rotation="0 0 90" color="grey" src="#brick"
+                repeat="2"></a-box>
+            
+            <!--FIRE-->
+            <a-box position="10.5 9.2 4" width="0.2" height="2.4" depth="15" rotation="0 0 90" color="grey" src="#brick"
+                repeat="2"></a-box>
+            <a-box position="10.5 7.5 4" width="0.2" height="2.4" depth="15" rotation="0 0 90" color="grey" src="#brick"
+                repeat="2"></a-box>
+            <a-box position="9.2 8.4 4" width="0.2" height="2.4" depth="15" rotation="0 0 0" color="grey" src="#brick"
+                repeat="2"></a-box>
+                <a-box position="11.5 8.4 4" width="0.2" height="2.4" depth="15" rotation="0 0 0" color="grey" src="#brick"
+                repeat="2"></a-box>
+
+            <!--Fire end-->
+
+            <!--Right-->
+            <a-box position="18 3.8 4" width="0.2" height="11" depth="8" rotation="0 0 0" color="grey" src="#brick"
+                repeat="5"></a-box>
+            <a-box position="18 1.6 7.3" width="0.2" height="6" depth="4" rotation="30 0 0" color="grey" src="#brick"
+                repeat="1"></a-box>
+            <a-box position="18 5 7.6" width="0.2" height="6" depth="4" rotation="-30 0 0" color="grey" src="#brick"
+                repeat="1"></a-box>
+
+            <!--Front-->
+            <a-box position="6 -1.7 4" width="0.2" height="6" depth="8" rotation="0 0 90" color="grey" src="#brick"
+                repeat="2"></a-box>
+            <a-box position="10.5 -1.7 6" width="0.2" height="3.5" depth="4" rotation="0 0 90" color="grey"
+                src="#brick" repeat="2"></a-box>
+            <!--Door-->
+            <a-box position="9 -2.8 2" width="0.2" height="2" depth="4" rotation="0 0 0" color="white" src="#brick"
+                repeat="2"></a-box>
+            <a-box position="15 -1.7 4" width="0.2" height="6" depth="8" rotation="0 0 90" color="grey" src="#brick"
+                repeat="2"></a-box>
+
+
+        
+            
+
+
+
+
+            <!-- Front Roof-->
+            <a-box position="10.5 0 9" width="0.2" height="15" depth="8" rotation="-60s 0 90" color="white" src="#brick"
+                repeat="2"></a-box>
+
+            <!-- Back Roof-->
+            <a-box position="10.5 7 9" width="0.2" height="15" depth="8" rotation="60 0 90" color="white" src="#brick"
+                repeat="2"></a-box>
+
+            
+        </a-box>
+        <!--BRICK END-->
+
+        <a-plane position="10 0 -4" rotation="-90 0 0" width="100" height="100" color="white" src="#grass">
+
+        </a-plane>
+
+        <a-sky color="#87ceeb"></a-sky>
+
+        <!-- <a-entity position="10 10 10" rotation="0 0 0">
+            <a-camera active="true"></a-camera>
+        </a-entity> -->
+    </a-scene>
+</body>
+
+</html>
